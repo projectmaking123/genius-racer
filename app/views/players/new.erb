@@ -1,0 +1,12 @@
+<%= erb :'_errors' %>
+
+<h1>Register</h1>
+
+<div class="row">
+  <form class="form-class" action="/players" method="post">
+    <input class="col s9" type="text" name="player[username]" placeholder="Username">
+    <input class="col s9" type="email" name="player[email]" placeholder="Email">
+    <input class="col s9" type="password" name="player[password]" placeholder="Password">
+    <input class="col s9" type="submit" value="Submit">
+  </form>
+</div>
